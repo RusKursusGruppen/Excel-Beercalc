@@ -1,0 +1,92 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{Brief Article}
+\author{The Author}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+
+
+\section*{Before you start using the oelregnskab.ods}
+
+\begin{itemize}
+
+\item Go to \emph{onsdag}: Input the names of all the \emph{russer} and the \emph{vejledere}
+
+\item Go to \emph{gratis}: Put in the amount agreed to about how much profit should be made to RKG.
+
+\item Go to \emph{beholdning}: Write the prices and amounts of the different beverages bought. Remember to verify the numbers by counting, rather than relying on the what was ordered. Suppliers can, and are known to, be wrong.
+
+\end{itemize}
+
+\section*{While using the oelregnskab.ods}
+
+\begin{itemize}
+
+\item Transfer \emph{streger}: Transfer the \emph{streger} from the \emph{stregliste} to the corresponding days ark. i.e. \emph{onsdag} for the \emph{streger} sat on Wednesday.
+
+\item Count the stock: Count how much of each item is actually leftover and input the numbers in the \emph{optælling} sheet. This is done to see how many \emph{streger} the \emph{russer} are putting and to calculate the suggested prices (see below).
+
+\item Set prices: Look at the suggested prices in the bottom of the days ark. Use those prices to decide on the specific prices for the \emph{russer} and \emph{rusvejldere}. Note that it is often desirable to put the prices a little higher the first couple of days to ensure that the desired profit is accumulated. One can then make the beers on the later days a bit cheaper.
+
+\item In the end: At the end of the \emph{rustur}, input how much is returned and how much is brought back to DIKU in the \emph{Beholdning} sheet.
+
+\item Collect money: Round up the \emph{russer} one by one and make them pay the amount they owe. Put in the amount they pay in column M of the day they are paying for. Note that the system is fine with them paying in advance, i.e. putting down more money than they owe on a specific day.
+
+\end{itemize}
+
+\end{document}

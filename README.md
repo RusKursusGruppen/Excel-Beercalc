@@ -1,4 +1,3 @@
-Hej og velkommen til det store ølregnskab!!!
+The beercalc system consists of a .ods ark with a number of sheets which are used for keeping track of how much beer and other beverages are consumed by russer and rusvejledere on rustur. 
 
-Ølregnskabet består af et stort excelark med en masse sider. Nedenfor følger en oversigt over de forskellige sider, og hvad de gør og kan.
-
+The file overview.pdf gives an overview of the sheet, while the how_to.pdf gives an introduction to how the sheet is to be used. Make sure to consult both documents well ahead of time before you need to use the program so that you are able to ask any questions you may have.
